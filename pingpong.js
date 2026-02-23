@@ -28,4 +28,21 @@ function draw (){
   
 }
 
+function movimentoBolinha(){
+  circle(xBolinha,yBolinha,diamentro);
+  
+  xBolinha += velocidadeXbolinha;
+  yBolinha += velocidadeYBolinha;
+  if(xBolinha + raio > width || xBolinha -raio < 0){
+    velocidadedeXBolinha *= -1;
+  }
+  if(yBolinha + raio > height || yBolinha-raio < 0){
+    velocidadeYBolinha *= -1}}
+
+function raquetes 
+
+
+
+
+
 
